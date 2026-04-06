@@ -1,21 +1,21 @@
 {
   "pipeline_run": {
-    "started_at": "2026-04-05T10:13:26.670441+00:00",
-    "completed_at": "2026-04-05T10:28:26.143313+00:00",
-    "duration_sec": 899.5,
+    "started_at": "2026-04-06T10:29:07.829971+00:00",
+    "completed_at": "2026-04-06T10:44:54.531884+00:00",
+    "duration_sec": 946.7,
     "status": "PARTIAL_SUCCESS"
   },
   "api_stats": {
-    "total_requests": 152,
+    "total_requests": 154,
     "failed_requests": 0,
     "cached_requests": 0
   },
   "intent": {
     "scheduled_events": {
       "TMT": [
-        "PremierDraft",
         "PickTwoDraft",
-        "TradDraft"
+        "TradDraft",
+        "PremierDraft"
       ],
       "BLB": [
         "PremierDraft"
@@ -68,7 +68,7 @@
   "execution_summary": {
     "formats_updated": 10,
     "formats_skipped": 2,
-    "total_output_kb": 881,
+    "total_output_kb": 887,
     "total_cards_rated": 2764,
     "total_errors": 0,
     "total_warnings": 1
@@ -91,28 +91,10 @@
   "datasets_updated": [
     {
       "set": "TMT",
-      "format": "PremierDraft",
-      "filename": "TMT_PremierDraft_All_Data.json.gz",
-      "size_kb": 105,
-      "hash": "67d04aa31a84d9e297eb138b5719973ab86802d87479cf59f77db81e72190c56",
-      "card_count": 195,
-      "status": "success"
-    },
-    {
-      "set": "TMT",
-      "format": "PremierDraft",
-      "filename": "TMT_PremierDraft_Top_Data.json.gz",
-      "size_kb": 61,
-      "hash": "0406582cd6adbfa1a3d498f2b6da561459954b3956cb2407bb56dec9bd6df309",
-      "card_count": 195,
-      "status": "success"
-    },
-    {
-      "set": "TMT",
       "format": "PickTwoDraft",
       "filename": "TMT_PickTwoDraft_All_Data.json.gz",
-      "size_kb": 92,
-      "hash": "cb287891c6856f76862e8529d611304f07e5b332f81a7bbb059e1b2ef03f89c5",
+      "size_kb": 94,
+      "hash": "60f97c992105a3d9b5f0e73d9d2b7fe6e412ccd0171e812d7639ede9b9bac0dd",
       "card_count": 195,
       "status": "success"
     },
@@ -121,7 +103,7 @@
       "format": "PickTwoDraft",
       "filename": "TMT_PickTwoDraft_Top_Data.json.gz",
       "size_kb": 23,
-      "hash": "c95887cfe6bae009b77c30315e54879adef99e2f4abcefdff35288e9e14a26c3",
+      "hash": "5807f83b7082f988f4ac8e7445b2ecb84276b4ef1cb6f26ecd8bc853f0f8f8b9",
       "card_count": 195,
       "status": "success"
     },
@@ -130,7 +112,7 @@
       "format": "TradDraft",
       "filename": "TMT_TradDraft_All_Data.json.gz",
       "size_kb": 64,
-      "hash": "c0ca97e03649b567e47568ad14adf255c81a1f7408cf4e52265052618b4dafbf",
+      "hash": "25db3e5f7d770361795fd4485f3b45c349bd38c38224f16de6e78135f64b91a7",
       "card_count": 195,
       "status": "success"
     },
@@ -139,7 +121,25 @@
       "format": "TradDraft",
       "filename": "TMT_TradDraft_Top_Data.json.gz",
       "size_kb": 37,
-      "hash": "c6f3c5ecca11d5d329c5690f64f19eefa8d2fe48da09df825689f226bb0153bb",
+      "hash": "0c1aedc6fa79b5c1b6d0d9a8f3927de6e797ee85b9a8e54b1fee23bf5dee1f1b",
+      "card_count": 195,
+      "status": "success"
+    },
+    {
+      "set": "TMT",
+      "format": "PremierDraft",
+      "filename": "TMT_PremierDraft_All_Data.json.gz",
+      "size_kb": 105,
+      "hash": "2d4146d96d31ec1cb516af5612dd78a44d4bcc6a994839f709cca9179342698e",
+      "card_count": 195,
+      "status": "success"
+    },
+    {
+      "set": "TMT",
+      "format": "PremierDraft",
+      "filename": "TMT_PremierDraft_Top_Data.json.gz",
+      "size_kb": 62,
+      "hash": "eaaed9055df2376547bc3f47de9fe7bc2ebb24bfe7fead71df69cb58e13fbdc5",
       "card_count": 195,
       "status": "success"
     },
@@ -148,7 +148,7 @@
       "format": "PremierDraft",
       "filename": "BLB_PremierDraft_All_Data.json.gz",
       "size_kb": 166,
-      "hash": "68a00a6d86ee3a53a512f7efb7877d0b3bb8027bbb95884d2bc6643f5f80cda0",
+      "hash": "34d3e4830cc6ca8d1b7ab171f374c819db46fd66aa558b80a43a1a87b2256b11",
       "card_count": 280,
       "status": "success"
     },
@@ -157,7 +157,7 @@
       "format": "PremierDraft",
       "filename": "BLB_PremierDraft_Top_Data.json.gz",
       "size_kb": 112,
-      "hash": "44adff26dc94126a0f3964a15c5f33c90655303bd5bad4af9d1692a8b52cf9ec",
+      "hash": "d83910dd27b6ca45fd8579e13b7d854e9fc6dfec8be6e4d8be57659d71609599",
       "card_count": 280,
       "status": "success"
     },
@@ -165,8 +165,8 @@
       "set": "FDN",
       "format": "QuickDraft",
       "filename": "FDN_QuickDraft_All_Data.json.gz",
-      "size_kb": 169,
-      "hash": "3de665568ac4800cbeabd792e7e9b475a73f3dd3a83cb3f408272a48e0f23283",
+      "size_kb": 172,
+      "hash": "2b99b3eb0b2268a10a43d3c1499a7ebb183412361078b56af1d5525cacf39f2b",
       "card_count": 517,
       "status": "success"
     },
@@ -175,7 +175,7 @@
       "format": "QuickDraft",
       "filename": "FDN_QuickDraft_Top_Data.json.gz",
       "size_kb": 52,
-      "hash": "781b18cdcf2f0cbe7b2a03f1c4248e33a65c3383e6a5e9e4a371e39551097659",
+      "hash": "5a55683a41d8a518bd6e8e6a8f31ad00f2cb1db499d6abd92495849a6af1a04d",
       "card_count": 517,
       "status": "success"
     }
@@ -195,7 +195,7 @@
   "errors": [],
   "warnings": [
     {
-      "time": "2026-04-05T10:22:10.537484+00:00",
+      "time": "2026-04-06T10:38:20.707298+00:00",
       "level": "WARNING",
       "logger": "server.utils",
       "message": "HTTP 403 on www.17lands.com. Backing off 180.0s to cool down IP..."
