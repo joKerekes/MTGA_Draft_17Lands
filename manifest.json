@@ -2,54 +2,74 @@
   "datasets": {
     "TMT_PremierDraft_All": {
       "filename": "TMT_PremierDraft_All_Data.json.gz",
-      "hash": "2d4146d96d31ec1cb516af5612dd78a44d4bcc6a994839f709cca9179342698e",
+      "hash": "5f5861ea00f2a8dd037c436993c0a80bf79234a2b0c800c47c035617a55e1f3b",
       "size_kb": 105
     },
     "TMT_PremierDraft_Top": {
       "filename": "TMT_PremierDraft_Top_Data.json.gz",
-      "hash": "eaaed9055df2376547bc3f47de9fe7bc2ebb24bfe7fead71df69cb58e13fbdc5",
+      "hash": "9206562ef0fe2d8b66286573c8477b70cecf70a69c45ba59a1e53c128d83d3af",
       "size_kb": 62
     },
     "TMT_TradDraft_All": {
       "filename": "TMT_TradDraft_All_Data.json.gz",
-      "hash": "25db3e5f7d770361795fd4485f3b45c349bd38c38224f16de6e78135f64b91a7",
+      "hash": "e6d9da3913040b4a3f27ee90330a018db3c131c2120701da65a1730ce94b0e8d",
       "size_kb": 64
     },
     "TMT_TradDraft_Top": {
       "filename": "TMT_TradDraft_Top_Data.json.gz",
-      "hash": "0c1aedc6fa79b5c1b6d0d9a8f3927de6e797ee85b9a8e54b1fee23bf5dee1f1b",
+      "hash": "975756ea04806eff8e36d4ed226645da06a16551c0a9b68b2cd901001d4b4b62",
       "size_kb": 37
     },
     "TMT_PickTwoDraft_All": {
       "filename": "TMT_PickTwoDraft_All_Data.json.gz",
-      "hash": "60f97c992105a3d9b5f0e73d9d2b7fe6e412ccd0171e812d7639ede9b9bac0dd",
+      "hash": "bb36245d2718a24ce83f3b632ab5aead775e8a04333dcbc5c1d8b547f830aacc",
       "size_kb": 94
     },
     "TMT_PickTwoDraft_Top": {
       "filename": "TMT_PickTwoDraft_Top_Data.json.gz",
-      "hash": "5807f83b7082f988f4ac8e7445b2ecb84276b4ef1cb6f26ecd8bc853f0f8f8b9",
+      "hash": "3512725bea12a055a4c700cf4b5e031099916e50a2e5a9146b6e455c051cca7d",
       "size_kb": 23
     },
     "FDN_QuickDraft_All": {
       "filename": "FDN_QuickDraft_All_Data.json.gz",
-      "hash": "2b99b3eb0b2268a10a43d3c1499a7ebb183412361078b56af1d5525cacf39f2b",
+      "hash": "091d481bf4475ec9fb8e516ea11a4bf6f6e1027019ecf880f31e8a039b61f667",
       "size_kb": 172
     },
     "FDN_QuickDraft_Top": {
       "filename": "FDN_QuickDraft_Top_Data.json.gz",
-      "hash": "5a55683a41d8a518bd6e8e6a8f31ad00f2cb1db499d6abd92495849a6af1a04d",
+      "hash": "c1e108eaca70fb1bb872697bc7d6add4b4582fef821327355d6b8d52b137b338",
       "size_kb": 52
     },
     "BLB_PremierDraft_All": {
       "filename": "BLB_PremierDraft_All_Data.json.gz",
-      "hash": "34d3e4830cc6ca8d1b7ab171f374c819db46fd66aa558b80a43a1a87b2256b11",
+      "hash": "d65fc3c0998cab45c2d391d60cbf21ae7a1b127e8799781f75fb149b528a9727",
       "size_kb": 166
     },
     "BLB_PremierDraft_Top": {
       "filename": "BLB_PremierDraft_Top_Data.json.gz",
-      "hash": "d83910dd27b6ca45fd8579e13b7d854e9fc6dfec8be6e4d8be57659d71609599",
+      "hash": "be20e53964cd3eadc26302360ebc3048b70298b90c77dc0973c623852edb908c",
       "size_kb": 112
+    },
+    "TMT_QuickDraft_All": {
+      "filename": "TMT_QuickDraft_All_Data.json.gz",
+      "hash": "83dc452c77a673f85f6c3c3b913c473f5bf2ec5c2d56c3bd112845d021f2204d",
+      "size_kb": 73
+    },
+    "TMT_QuickDraft_Top": {
+      "filename": "TMT_QuickDraft_Top_Data.json.gz",
+      "hash": "48c7097cee94fa9b5a1f1a208adc5ec68c71db8239afdfc17c934c68e085e3c4",
+      "size_kb": 23
+    },
+    "FDN_PremierDraft_All": {
+      "filename": "FDN_PremierDraft_All_Data.json.gz",
+      "hash": "ed0ca8313048e5a7795bf19a17dde9d5929f095940181d1575493c0be8d9d84e",
+      "size_kb": 196
+    },
+    "FDN_PremierDraft_Top": {
+      "filename": "FDN_PremierDraft_Top_Data.json.gz",
+      "hash": "8cfacc122cfedb695950dbeb4cd57120683b9aa207e5941173a064864fd14b15",
+      "size_kb": 138
     }
   },
-  "updated_at": "2026-04-06T10:29:07.830306+00:00"
+  "updated_at": "2026-04-07T10:26:27.648949+00:00"
 }
